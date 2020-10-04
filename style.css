@@ -1,0 +1,299 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c5c3d");
+@font-face {
+  font-family: 'Noctis-Bold';
+  src: url("fonts/Noctis-Bold/font.woff2") format("woff2"), url("fonts/Noctis-Bold/font.woff") format("woff"); }
+
+body {
+  width: 100%;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Noctis-Bold", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1, h2, h3, li, span, a, p {
+  font-size: 20px;
+  color: #181715;
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  @media only screen and (min-width: 1200px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 25px; } }
+  @media only screen and (min-width: 1500px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 30px; } }
+  @media only screen and (min-width: 1800px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 35px; } }
+  @media only screen and (min-width: 2000px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 40px; } }
+  @media only screen and (min-width: 2200px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 45px; } }
+  @media only screen and (min-width: 2400px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 50px; } }
+  @media only screen and (min-width: 2600px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 60px; } }
+  @media only screen and (min-width: 2800px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 65px; } }
+  @media only screen and (min-width: 3000px) {
+    h1, h2, h3, li, span, a, p {
+      font-size: 70px; } }
+
+.spacer-bottom {
+  margin-bottom: 2em;
+  display: block; }
+
+.no-margin {
+  margin: 0; }
+
+.no-margin-bottom {
+  margin-bottom: 0; }
+
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="black" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto; }
+
+body.darkmode {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto; }
+
+a, li span, button {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="black" stroke="black" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto; }
+
+body.darkmode a, body.darkmode li span, body.darkmode button {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" stroke="white" width="20px" height="20px" viewBox="0 0 10.04 10.04"><circle cx="5.02" cy="5.02" r="4.52"/></svg>') 10 10, auto; }
+
+a {
+  text-decoration: underline; }
+
+ul {
+  padding: 0; }
+
+li {
+  list-style: none; }
+  li span, li a {
+    text-decoration: underline; }
+
+h1 a {
+  text-decoration: underline;
+  font-weight: 400; }
+
+button {
+  border: none;
+  outline: inherit; }
+
+button.button-darkmode {
+  width: 20px;
+  height: 20px;
+  margin-top: 1em;
+  background-color: #181715;
+  border-radius: 999px;
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  overflow: visible; }
+  @media only screen and (max-width: 1000px) {
+    button.button-darkmode {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 0px;
+      right: 0px; } }
+  @media only screen and (min-width: 1000px) {
+    button.button-darkmode:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2); }
+    button.button-darkmode:active {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); } }
+
+body {
+  background-color: #fff;
+  -webkit-transition: all 1000ms ease-in-out;
+  -o-transition: all 1000ms ease-in-out;
+  transition: all 1000ms ease-in-out; }
+
+body.darkmode {
+  background-color: #010101; }
+  body.darkmode h1, body.darkmode h2, body.darkmode h3, body.darkmode li, body.darkmode span, body.darkmode a, body.darkmode p {
+    color: #fff; }
+  body.darkmode .button-darkmode {
+    background-color: #fff; }
+
+#sidebar {
+  width: 25%;
+  position: fixed;
+  height: 100%;
+  float: left; }
+  @media only screen and (max-width: 1000px) {
+    #sidebar {
+      width: 100%;
+      float: none;
+      clear: both;
+      position: relative; } }
+  #sidebar h1 {
+    margin: 0; }
+
+#content {
+  width: 75%;
+  margin-left: 25%;
+  float: left; }
+  @media only screen and (max-width: 1000px) {
+    #content {
+      width: 100%;
+      float: none;
+      clear: both;
+      margin: 0; } }
+
+h1, h2 {
+  font-weight: 400; }
+
+.sidebar-wrapper, .content-wrapper {
+  margin: 2em; }
+  @media only screen and (min-width: 660px) {
+    .sidebar-wrapper, .content-wrapper {
+      margin: 3em; } }
+  @media only screen and (min-width: 1000px) {
+    .sidebar-wrapper, .content-wrapper {
+      margin: 5em; } }
+
+.sidebar-wrapper {
+  width: 100%;
+  height: 100vh;
+  min-height: 450px;
+  position: relative; }
+  @media only screen and (max-width: 1000px) {
+    .sidebar-wrapper {
+      height: auto;
+      min-height: auto;
+      width: auto; } }
+  .sidebar-wrapper h2 {
+    line-height: 1;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 50%; }
+    @media only screen and (max-width: 1200px) {
+      .sidebar-wrapper h2 {
+        width: 70%; } }
+  .sidebar-wrapper .sidebar-wrapper-bottom {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10em; }
+    @media only screen and (max-width: 1000px) {
+      .sidebar-wrapper .sidebar-wrapper-bottom {
+        position: relative;
+        margin: 0; } }
+  @media only screen and (max-width: 1000px) and (min-width: 660px) {
+    .sidebar-wrapper .sidebar-wrapper-top, .sidebar-wrapper .sidebar-wrapper-bottom {
+      width: 48%;
+      float: left;
+      margin-bottom: 2em; }
+      .sidebar-wrapper .sidebar-wrapper-top ul, .sidebar-wrapper .sidebar-wrapper-bottom ul {
+        margin-top: 0; } }
+  @media only screen and (max-width: 1000px) and (min-width: 660px) and (min-width: 865px) {
+    .sidebar-wrapper .sidebar-wrapper-top h2, .sidebar-wrapper .sidebar-wrapper-bottom h2 {
+      width: 45%; } }
+  @media only screen and (max-width: 660px) {
+    .sidebar-wrapper .sidebar-wrapper-top, .sidebar-wrapper .sidebar-wrapper-bottom {
+      margin-bottom: 4em; } }
+
+img {
+  width: 100%;
+  margin-bottom: 7em; }
+  @media only screen and (max-width: 1200px) {
+    img {
+      margin-bottom: 2em; } }
+  img:last-child {
+    margin-bottom: -9px; }
+    @media only screen and (max-width: 1000px) {
+      img:last-child {
+        margin-bottom: 0; } }
+
+#content-home, #content-about, #content-odyssey {
+  display: none;
+  opacity: 0; }
+
+.home #content-home,
+.odyssey #content-odyssey,
+.about #content-about {
+  display: block;
+  opacity: 0;
+  -webkit-transform: translateY(-0.5em);
+  -ms-transform: translateY(-0.5em);
+  transform: translateY(-0.5em); }
+
+.page-animate-out.home #content-home,
+.page-animate-out.odyssey #content-odyssey,
+.page-animate-out.about #content-about {
+  opacity: 0;
+  -webkit-transform: translateY(0.5em);
+  -ms-transform: translateY(0.5em);
+  transform: translateY(0.5em);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+.page-animate-in.home #content-home,
+.page-animate-in.odyssey #content-odyssey,
+.page-animate-in.about #content-about {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+#link-odyssey, #link-about, #link-instagram {
+  -webkit-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+
+#content-home > img {
+  margin-top: 9px; }
+
+#content-about p {
+  width: 60%;
+  padding: 0;
+  margin: 0; }
+
+#content-about img {
+  margin-top: 2em; }
+
+.intro .home > * {
+  opacity: 0;
+  -webkit-transform: translateY(-0.5em);
+  -ms-transform: translateY(-0.5em);
+  transform: translateY(-0.5em); }
+
+.home > * {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
+.language-menu {
+  float: right; }
+
+body .content-de, body #lang-en {
+  display: none; }
+
+body .content-en, body #lang-de {
+  display: block; }
+
+body.language-de .content-en, body.language-de #lang-de {
+  display: none; }
+
+body.language-de .content-de, body.language-de #lang-en {
+  display: block; }
